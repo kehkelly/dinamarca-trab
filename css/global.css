@@ -2,4 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: var(--ligth-yellow);
+}
+
+section {
+    margin-inline: 3rem;
+}
+
+h1 {
+    color: var(--dark-red);
+}
+
+h2 {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    color: var(--dark-red);
+    text-align: center;
+}
+
+h3 {
+    font-size: .8rem;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    text-align: center;
 }

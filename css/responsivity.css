@@ -1,0 +1,88 @@
+@media(min-width:675px){
+    main {
+        background: var(--ligth-yellow);
+    }
+
+    p {
+        font-weight: 500;
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .pi {
+        background: url(../images/bg-desktop.png);
+        background-size: cover;
+        background-position: 100%;
+        display: flex;
+        align-items: center;
+        gap: 50rem;
+        font-size: 2rem;
+    }
+    
+    button {
+        padding-block: 1rem;
+        padding-inline: 2rem;
+        font-size: 1rem;
+        scroll-behavior: smooth;
+    }
+
+    button:hover{
+        cursor: pointer;
+        scroll-behavior: smooth;
+        background: transparent;
+        color: var(--red);
+        border: 2px solid var(--red);
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info-g, .cultura {
+        padding-inline: 3rem;
+        margin-inline: 3rem;
+    }
+    .info-g img {
+        width: 27rem;
+        margin-left: 0.5rem;
+        margin-top: 0.25rem;
+    }
+    .historia, .politica {
+        padding-inline: 4rem;
+        margin-inline: 6rem;
+        color: #fff;
+        background-color: var(--red);
+    }
+    .historia h2, .politica h2 {
+        color: #fff;
+    }
+    
+    .imgs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 0.8rem;
+        margin-bottom: 4rem;
+    }
+
+    .imgs img, .timgs img {
+        width: 12rem;
+    }
+
+    .turismo {
+        width: 27rem;
+        margin-right: 9rem;
+        margin-left: -11rem;
+        margin-top: 0.25rem;
+    }    
+    
+    .timgs {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-left: 4rem;
+        margin-right: -10rem;
+    }
+
+}

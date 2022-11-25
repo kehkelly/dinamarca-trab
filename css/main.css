@@ -22,8 +22,9 @@ button {
     scroll-behavior: smooth;
 }
 
-.bandeira img {
+.info-g img {
     width: 24.75rem;
+    margin-left: 3rem;
 }    
 
 .cultura img {

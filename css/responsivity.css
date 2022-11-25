@@ -50,7 +50,7 @@
     }
     .historia, .politica {
         padding-inline: 4rem;
-        margin-inline: 6rem;
+        margin-inline: 6.5rem;
         color: #fff;
         background-color: var(--red);
     }
@@ -76,7 +76,7 @@
         margin-left: -11rem;
         margin-top: 0.25rem;
     }    
-    
+
     .timgs {
         display: flex;
         flex-direction: row;

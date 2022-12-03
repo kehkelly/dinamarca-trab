@@ -19,19 +19,17 @@
         font-size: 2rem;
     }
     
-    button {
+    a {
         padding-block: 1rem;
         padding-inline: 2rem;
         font-size: 1rem;
         scroll-behavior: smooth;
     }
 
-    button:hover{
+    a:hover{
         cursor: pointer;
         scroll-behavior: smooth;
         background: transparent;
-        color: var(--red);
-        border: 2px solid var(--red);
     }
 
     section {
